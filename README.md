@@ -36,6 +36,7 @@
 | 3   | 23520534 | Thái Bình Dương      | https://github.com/DuongThai2712    | 23520356@gm.uit.edu.vn  |
 | 4   | 23520775 | Nguyễn Hữu Minh Khôi | https://github.com/vinhpt003        | 23520775@gm.uit.edu.vn  |
 | 5   | 23520022 | Nguyễn Văn Ân        | https://github.com/vinhpt003        | 23520022@gm.uit.edu.vn  |
-| 6   | 23520022 | Thiều Đinh Nam Tài   | https://github.com/vinhpt003        | 23520022@gm.uit.edu.vn  |
+| 6   | 23521378 | Thiều Đinh Nam Tài   | https://github.com/Blackdarked      | 23521378@gm.uit.edu.vn  |
+
 
 
