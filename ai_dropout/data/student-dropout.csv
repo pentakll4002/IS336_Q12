@@ -1,41 +1,200 @@
-student_id,full_name,age,occupation,income_level,course_level,course_type,class_schedule,attendance_rate,homework_completion_rate,speaking_practice_hours,lms_login_frequency,late_payment_count,satisfaction_teacher,satisfaction_content,motivation_level,stress_level,dropout
-1,Nguyen Van Minh,18,student,low,Starter,IELTS,Evening,0.75,0.60,1,2,1,3,3,3,3,0
-2,Tran Thi Hoa,22,worker,medium,Elementary,Communication,Evening,0.55,0.40,0.5,1,2,2,2,2,4,1
-3,Le Van Quang,27,worker,medium,Pre-intermediate,Business,Morning,0.85,0.80,2,3,0,4,4,4,2,0
-4,Pham Thi Thanh,16,student,low,Starter,Communication,Weekend,0.65,0.55,1,1,1,3,3,2,4,1
-5,Hoang Van Nam,25,worker,high,Intermediate,IELTS,Evening,0.90,0.85,3,4,0,5,5,5,1,0
-6,Vu Thi Ngoc,21,student,medium,Elementary,TOEIC,Morning,0.60,0.50,1,1,1,2,3,2,3,1
-7,Do Van Truong,30,worker,medium,Pre-intermediate,Communication,Evening,0.45,0.30,0,0,3,2,2,1,5,1
-8,Nguyen Thi Mai,19,student,low,Starter,TOPIK,Weekend,0.70,0.65,1,1,0,4,4,3,2,0
-9,Pham Van Hieu,23,worker,medium,Intermediate,Business,Afternoon,0.88,0.78,2,2,0,4,5,3,1,0
-10,Tran Thi Phuong,17,student,low,Elementary,JLPT,Morning,0.50,0.40,0.5,0,2,2,3,2,4,1
-11,Nguyen Van Tuan,33,worker,high,Advanced,IELTS,Evening,0.92,0.85,3,3,0,5,5,4,1,0
-12,Le Thi Hong,20,student,medium,Elementary,Communication,Weekend,0.62,0.55,1,1,1,3,3,3,3,1
-13,Hoang Minh Duc,28,worker,medium,Intermediate,TOEIC,Evening,0.80,0.75,2,3,0,4,4,4,2,0
-14,Ta Thi Bich,32,worker,high,Advanced,Business,Afternoon,0.95,0.90,4,4,0,5,5,5,1,0
-15,Nguyen Van Bao,24,worker,low,Pre-intermediate,IELTS,Evening,0.58,0.45,0.5,0,2,2,2,2,4,1
-16,Pham Thi Kim,18,student,low,Starter,Communication,Weekend,0.72,0.65,1,1,0,3,3,3,2,0
-17,Tran Van Cong,26,worker,medium,Intermediate,JLPT,Morning,0.85,0.80,2,3,0,4,4,4,1,0
-18,Do Thi Thao,27,worker,medium,Elementary,Communication,Evening,0.48,0.35,0,0,3,2,2,1,5,1
-19,Nguyen Van Long,20,student,low,Starter,TOEIC,Afternoon,0.60,0.50,1,1,1,3,2,3,3,1
-20,Le Thi Hanh,22,student,medium,Elementary,IELTS,Evening,0.82,0.75,2,2,0,4,4,4,2,0
-21,Hoang Van Phuc,29,worker,medium,Pre-intermediate,Communication,Evening,0.67,0.55,1.5,1,1,3,3,3,3,0
-22,Tran Thi Yen,18,student,low,Starter,TOPIK,Weekend,0.73,0.60,1,1,0,3,3,2,3,0
-23,Nguyen Quoc Viet,31,worker,medium,Intermediate,TOEIC,Afternoon,0.58,0.48,1,1,2,3,3,2,4,1
-24,Do Thi Lan,23,worker,medium,Elementary,IELTS,Morning,0.80,0.70,2,3,0,4,4,3,2,0
-25,Pham Minh Tien,24,worker,low,Starter,Communication,Evening,0.50,0.40,0.5,0,2,2,2,3,4,1
-26,Vu Thi Ly,21,student,medium,Elementary,TOEIC,Weekend,0.76,0.70,1.5,2,0,4,4,4,2,0
-27,Tran Van Bang,28,worker,medium,Intermediate,Business,Evening,0.87,0.80,3,3,0,5,5,4,1,0
-28,Le Thi Quyen,19,student,low,Starter,IELTS,Morning,0.64,0.55,1,1,1,3,3,3,3,1
-29,Nguyen Van Hung,33,worker,high,Advanced,Communication,Afternoon,0.91,0.88,3,3,0,5,5,5,1,0
-30,Hoang Thi Dao,25,worker,medium,Pre-intermediate,JLPT,Evening,0.72,0.65,1.5,1,1,4,4,3,2,0
-31,Ta Van Nam,27,worker,medium,Intermediate,IELTS,Morning,0.77,0.70,2,3,0,4,4,4,2,0
-32,Pham Thi Nhung,22,student,low,Elementary,Communication,Evening,0.48,0.38,0.5,0,2,2,2,3,4,1
-33,Nguyen Tien Thanh,24,worker,medium,Pre-intermediate,TOEIC,Weekend,0.82,0.74,2,2,0,4,4,4,1,0
-34,Le Thi Thu,20,student,medium,Starter,TOPIK,Afternoon,0.63,0.55,1,1,1,3,3,3,3,1
-35,Hoang Van Luan,29,worker,medium,Intermediate,IELTS,Evening,0.89,0.80,3,3,0,4,5,4,1,0
-36,Tran Thi Diep,18,student,low,Starter,Communication,Weekend,0.75,0.65,1,1,0,3,3,2,3,0
-37,Nguyen Van Khoa,31,worker,high,Advanced,Business,Morning,0.92,0.90,4,4,0,5,5,5,1,0
-38,Do Thi My,26,worker,medium,Elementary,JLPT,Evening,0.58,0.48,1,1,2,3,3,2,4,1
-39,Pham Van Hiep,23,worker,medium,Pre-intermediate,Communication,Afternoon,0.83,0.75,2,2,0,4,4,4,2,0
-40,Le Thi Huong,17,student,low,Starter,IELTS,Morning,0.50,0.42,0.5,0,2,2,3,2,4,1
+student_id,full_name,gender,age,course_level,attendance_rate,homework_completion,test_score,sessions_missed_last_30_days,complaints_count,last_interaction_days_ago,tuition_paid_ratio,late_payment_count,dropout
+1,Nguyễn Văn Nam,Male,21,Pre-Intermediate,82,76,79,1,0,5,0.92,0,0
+2,Trần Thị Thu Hà,Female,19,Elementary,67,54,58,3,1,12,0.80,1,0
+3,Lê Minh Triết,Male,23,Intermediate,45,39,42,6,0,18,0.65,2,1
+4,Phạm Ngọc Linh,Female,20,Beginner,90,85,82,0,0,3,1.00,0,0
+5,Huỳnh Gia Khang,Male,18,Advanced,72,60,64,2,1,10,0.87,1,0
+6,Võ Thị Bích Phượng,Female,22,Beginner,40,35,30,7,2,25,0.50,3,1
+7,Đỗ Quang Huy,Male,24,Intermediate,88,81,84,1,0,7,0.95,0,0
+8,Nguyễn Thị Thanh Trúc,Female,19,Elementary,53,48,45,4,1,15,0.70,2,1
+9,Phạm Hoàng Vũ,Male,21,Advanced,91,89,93,0,0,2,1.00,0,0
+10,Trần Bảo Ngọc,Female,20,Pre-Intermediate,65,60,62,3,0,12,0.78,1,0
+11,Lê Quang Minh,Male,22,Intermediate,58,50,52,5,1,20,0.68,2,1
+12,Nguyễn Thị Mỹ Dung,Female,25,Beginner,74,71,69,2,0,9,0.85,1,0
+13,Võ Minh Khoa,Male,18,Elementary,47,40,42,6,2,23,0.55,3,1
+14,Trần Kim Ngân,Female,19,Advanced,95,92,94,0,0,1,1.00,0,0
+15,Hoàng Gia Bảo,Male,26,Pre-Intermediate,62,57,58,3,1,14,0.75,1,0
+16,Phạm Thị Hân,Female,20,Intermediate,41,38,35,8,2,30,0.48,4,1
+17,Nguyễn Thành Phát,Male,22,Elementary,78,72,70,1,0,5,0.90,0,0
+18,Lê Ngọc Ánh,Female,21,Beginner,52,47,45,4,1,16,0.67,2,1
+19,Trần Quốc Hiếu,Male,19,Intermediate,86,84,82,0,0,3,0.96,0,0
+20,Hồ Tuyết Nhi,Female,23,Pre-Intermediate,59,55,57,3,1,11,0.73,1,0
+21,Nguyễn Minh Khang,Male,20,Elementary,63,58,56,4,1,13,0.77,1,0
+22,Phạm Thị Thu,Female,18,Beginner,49,45,42,6,2,22,0.60,2,1
+23,Lê Gia Bảo,Male,25,Advanced,92,90,91,0,0,2,1.00,0,0
+24,Trần Nhật Linh,Female,21,Intermediate,57,50,52,5,1,19,0.70,2,1
+25,Hoàng Minh Đức,Male,23,Pre-Intermediate,68,64,63,2,0,9,0.83,1,0
+26,Võ Yến Nhi,Female,19,Elementary,75,70,72,1,0,7,0.88,0,0
+27,Nguyễn Hưng Thịnh,Male,24,Beginner,44,38,36,7,2,26,0.50,3,1
+28,Trần Bảo Châu,Female,20,Intermediate,80,75,78,1,0,6,0.94,0,0
+29,Lê Quang Huy,Male,22,Pre-Intermediate,56,49,50,4,1,17,0.73,1,1
+30,Phạm Thanh Hà,Female,21,Advanced,97,93,95,0,0,1,1.00,0,0
+31,Đỗ Văn Khoa,Male,18,Elementary,48,42,40,6,2,21,0.58,2,1
+32,Nguyễn Hồng Ngọc,Female,22,Beginner,72,67,64,2,0,8,0.82,1,0
+33,Trần Minh Tuấn,Male,23,Intermediate,60,55,54,3,1,12,0.79,1,0
+34,Hồ Bích Vân,Female,20,Advanced,87,85,88,1,0,4,0.96,0,0
+35,Lê Hoàng Long,Male,25,Pre-Intermediate,53,48,50,5,2,18,0.71,2,1
+36,Nguyễn Ngọc Mai,Female,19,Elementary,66,60,58,2,0,11,0.83,1,0
+37,Võ Văn Thiện,Male,26,Intermediate,43,37,35,7,2,27,0.52,3,1
+38,Trần Khánh Huyền,Female,21,Beginner,79,72,70,1,0,5,0.89,0,0
+39,Lê Tuấn Kiệt,Male,20,Advanced,93,90,94,0,0,3,0.99,0,0
+40,Nguyễn Thị Thảo,Female,22,Pre-Intermediate,57,52,50,4,1,14,0.74,1,1
+41,Phạm Minh Hoàng,Male,24,Elementary,61,56,55,3,1,13,0.78,1,0
+42,Trần Bảo Anh,Female,18,Beginner,50,46,44,5,1,19,0.69,2,1
+43,Hoàng Thành Đạt,Male,23,Intermediate,85,83,82,0,0,4,0.95,0,0
+44,Nguyễn Thu Trang,Female,20,Advanced,98,95,97,0,0,1,1.00,0,0
+45,Võ Minh Quân,Male,19,Pre-Intermediate,62,57,58,3,1,12,0.77,1,0
+46,Phạm Ngọc Hiền,Female,21,Elementary,47,43,41,6,2,24,0.60,3,1
+47,Lê Hải Đăng,Male,22,Beginner,70,65,63,2,0,10,0.84,1,0
+48,Trần Kim Chi,Female,23,Intermediate,55,51,50,5,1,17,0.72,2,1
+49,Nguyễn Hoàng Phúc,Male,25,Advanced,90,88,89,1,0,3,0.97,0,0
+50,Hồ Mỹ Linh,Female,20,Pre-Intermediate,58,53,55,3,1,16,0.75,1,1
+52,Phan Hữu Đức,23,male,Intermediate,internal,medium,14,true,3
+53,Nguyễn Thuý Vy,19,female,Beginner,external,low,7,false,1
+54,Lê Quốc Toàn,25,male,Advanced,internal,high,20,true,5
+55,Trần Bích Lam,21,female,Intermediate,external,medium,11,false,2
+56,Võ Anh Kiệt,22,male,Beginner,internal,medium,9,false,1
+57,Nguyễn Thùy Nhi,18,female,Advanced,external,high,16,true,5
+58,Đặng Trọng Phú,27,male,Intermediate,internal,low,12,false,2
+59,Hồ Mai Chi,20,female,Beginner,external,medium,8,false,1
+60,Phạm Quốc Khánh,24,male,Advanced,internal,medium,15,true,4
+61,Nguyễn Diễm Thúy,22,female,Intermediate,external,high,13,true,3
+62,Bùi Minh Vương,26,male,Beginner,internal,medium,6,false,1
+63,Lê Thanh Hương,19,female,Advanced,external,low,17,true,4
+64,Trần Quang Lâm,21,male,Intermediate,internal,medium,14,true,3
+65,Đỗ Nhật Lệ,20,female,Beginner,external,medium,9,false,1
+66,Nguyễn Hoài Phong,28,male,Advanced,internal,high,19,true,5
+67,Võ Thảo Vi,18,female,Intermediate,external,medium,12,true,3
+68,Hoàng Văn Khôi,25,male,Beginner,internal,low,7,false,1
+69,Phạm Mỹ Hạnh,23,female,Advanced,external,medium,16,true,4
+70,Trịnh Thiên Long,22,male,Intermediate,internal,high,15,true,5
+71,Nguyễn Ngọc Hân,19,female,Beginner,external,medium,10,false,2
+72,Bùi Đức Thịnh,24,male,Advanced,internal,low,18,true,4
+73,Lê Bích Phượng,20,female,Intermediate,external,medium,11,false,2
+74,Đặng Hoàng Triều,26,male,Beginner,internal,high,8,false,1
+75,Ngô Thảo My,21,female,Advanced,external,medium,17,true,4
+76,Phan Tấn Đạt,23,male,Intermediate,internal,medium,14,true,3
+77,Nguyễn Thiên Kim,18,female,Beginner,external,low,6,false,1
+78,Trần Quốc Bảo,20,male,Advanced,internal,medium,15,true,4
+79,Đỗ Mai Hương,19,female,Intermediate,external,medium,12,false,2
+80,Vũ Hữu Nghĩa,27,male,Beginner,internal,high,9,false,1
+81,Nguyễn Bảo Trân,22,female,Advanced,external,low,16,true,4
+82,Lê Hoàng Nam,21,male,Intermediate,internal,medium,13,true,3
+83,Phạm Mỹ Duyên,20,female,Beginner,external,medium,8,false,1
+84,Trương Quang Long,24,male,Advanced,internal,high,19,true,5
+85,Nguyễn Thùy Dương,18,female,Intermediate,external,medium,11,false,2
+86,Bùi Chí Công,23,male,Beginner,internal,low,7,false,1
+87,Lý Ngọc Bích,20,female,Advanced,external,medium,15,true,4
+88,Hoàng Gia Huy,25,male,Intermediate,internal,high,14,true,4
+89,Nguyễn Minh Thư,19,female,Beginner,external,medium,9,false,1
+90,Phan Tấn Tài,28,male,Advanced,internal,medium,20,true,5
+91,Đỗ Hương Trà,22,female,Intermediate,external,low,13,false,2
+92,Nguyễn Văn Kiệt,21,male,Beginner,internal,medium,6,false,1
+93,Lê Khánh Ngọc,19,female,Advanced,external,high,18,true,5
+94,Trần Quốc Việt,23,male,Intermediate,internal,medium,14,true,3
+95,Phạm Thu Ngân,20,female,Beginner,external,low,8,false,1
+96,Võ Minh Hoàng,26,male,Advanced,internal,medium,17,true,4
+97,Hồ Ngọc Trinh,21,female,Intermediate,external,medium,12,false,2
+98,Nguyễn Thành Nhân,22,male,Beginner,internal,medium,7,false,1
+99,Đặng Mỹ Quyên,18,female,Advanced,external,high,16,true,5
+100,Phan Nhật Quang,24,male,Intermediate,internal,medium,15,true,3
+101,Nguyễn Hoàng Long,Male,23,Intermediate,78,72,70,2,1,12,0.80,1,0
+102,Trần Thị Lan,Female,20,Beginner,55,50,48,5,1,18,0.68,2,1
+103,Lê Văn Hùng,Male,25,Advanced,92,88,90,0,0,3,0.98,0,0
+104,Phạm Thị Thuý,Female,22,Pre-Intermediate,60,57,59,3,1,14,0.75,1,0
+105,Đỗ Minh Tuấn,Male,21,Intermediate,82,79,81,1,0,7,0.90,0,0
+106,Nguyễn Thị Mỹ Linh,Female,19,Beginner,50,46,45,4,1,16,0.70,2,1
+107,Hoàng Văn Khôi,Male,24,Advanced,94,91,93,0,0,2,1.00,0,0
+108,Trần Bảo Ngọc,Female,21,Intermediate,63,58,60,3,1,13,0.78,1,0
+109,Lê Thị Thanh Mai,Female,20,Pre-Intermediate,57,52,54,4,1,15,0.72,1,0
+110,Nguyễn Đức Anh,Male,22,Beginner,48,44,43,5,2,20,0.65,2,1
+111,Phạm Hồng Sơn,Male,23,Intermediate,80,77,79,2,0,8,0.88,0,0
+112,Trần Thị Ngọc Anh,Female,19,Advanced,96,93,95,0,0,2,1.00,0,0
+113,Lê Văn Minh,Male,21,Pre-Intermediate,62,58,59,3,1,14,0.76,1,0
+114,Nguyễn Thị Thanh Hương,Female,20,Elementary,55,50,52,4,1,16,0.70,2,1
+115,Đỗ Quang Huy,Male,24,Intermediate,84,81,83,1,0,9,0.92,0,0
+116,Hoàng Thị Bích Phương,Female,22,Beginner,45,40,38,6,2,22,0.60,3,1
+117,Phan Minh Tâm,Male,25,Advanced,91,88,90,0,0,3,0.98,0,0
+118,Nguyễn Thị Kim Liên,Female,21,Pre-Intermediate,58,54,56,4,1,15,0.73,1,0
+119,Lê Hoàng Nam,Male,23,Intermediate,79,75,77,2,0,10,0.85,0,0
+120,Trần Thị Mai Linh,Female,19,Beginner,49,45,44,5,1,18,0.66,2,1
+121,Nguyễn Thanh Tùng,Male,22,Advanced,95,92,94,0,0,2,1.00,0,0
+122,Phạm Thị Ngọc Anh,Female,20,Intermediate,61,57,59,3,1,14,0.75,1,0
+123,Đỗ Văn Khải,Male,24,Pre-Intermediate,64,60,62,3,1,12,0.78,1,0
+124,Lê Thị Thuý Hằng,Female,21,Elementary,53,49,50,4,1,16,0.70,2,1
+125,Nguyễn Hữu Phước,Male,23,Intermediate,81,78,80,1,0,8,0.90,0,0
+126,Trần Thị Kim Chi,Female,20,Beginner,46,42,40,6,2,20,0.60,3,1
+127,Hoàng Minh Tuấn,Male,25,Advanced,93,90,92,0,0,3,0.99,0,0
+128,Nguyễn Thị Mỹ Hạnh,Female,19,Pre-Intermediate,59,55,57,4,1,15,0.73,1,0
+129,Lê Văn Hòa,Male,21,Intermediate,77,74,75,2,0,9,0.86,0,0
+130,Phạm Thị Hồng Nhung,Female,22,Beginner,48,44,43,5,1,19,0.65,2,1
+131,Đỗ Quốc Hưng,Male,24,Advanced,92,89,91,0,0,3,0.98,0,0
+132,Nguyễn Thị Bảo Ngọc,Female,20,Pre-Intermediate,57,53,55,4,1,14,0.73,1,0
+133,Lê Quang Duy,Male,23,Intermediate,80,77,78,1,0,8,0.88,0,0
+134,Trần Thị Ngọc Linh,Female,19,Beginner,45,41,40,6,2,21,0.60,3,1
+135,Nguyễn Minh Quân,Male,22,Advanced,95,92,94,0,0,2,1.00,0,0
+136,Phạm Thị Thanh Vân,Female,20,Intermediate,60,56,58,3,1,14,0.75,1,0
+137,Đỗ Hoàng Long,Male,24,Pre-Intermediate,63,59,61,3,1,12,0.78,1,0
+138,Lê Thị Bích Ngọc,Female,21,Elementary,54,50,51,4,1,16,0.70,2,1
+139,Nguyễn Văn Hoàng,Male,23,Intermediate,82,79,81,1,0,9,0.91,0,0
+140,Trần Thị Thuý Nga,Female,20,Beginner,47,43,42,5,1,19,0.65,2,1
+141,Hoàng Quang Huy,Male,25,Advanced,94,91,93,0,0,3,0.99,0,0
+142,Nguyễn Thị Kim Dung,Female,19,Pre-Intermediate,58,54,56,4,1,15,0.73,1,0
+143,Lê Văn Sơn,Male,21,Intermediate,79,75,77,2,0,10,0.86,0,0
+144,Phạm Thị Thảo,Female,22,Beginner,49,45,44,5,1,18,0.66,2,1
+145,Đỗ Văn Khánh,Male,24,Advanced,93,90,92,0,0,3,0.99,0,0
+146,Nguyễn Thị Lan Anh,Female,20,Pre-Intermediate,57,53,55,4,1,14,0.73,1,0
+147,Lê Hoàng Hải,Male,23,Intermediate,81,78,80,1,0,8,0.90,0,0
+148,Trần Thị Bảo Trâm,Female,19,Beginner,46,42,41,6,2,20,0.60,3,1
+149,Nguyễn Quốc Tuấn,Male,22,Advanced,95,92,94,0,0,2,1.00,0,0
+150,Phạm Thị Ngọc Hân,Female,21,Intermediate,61,57,59,3,1,14,0.75,1,0
+151,Đỗ Minh Quân,Male,22,Pre-Intermediate,63,59,61,3,1,12,0.78,1,0
+152,Nguyễn Thị Thanh Mai,Female,20,Elementary,54,50,51,4,1,16,0.70,2,1
+153,Lê Quang Huy,Male,23,Intermediate,82,79,81,1,0,9,0.91,0,0
+154,Trần Thị Ngọc Lan,Female,19,Beginner,47,43,42,5,1,19,0.65,2,1
+155,Hoàng Minh Tuấn,Male,25,Advanced,94,91,93,0,0,3,0.99,0,0
+156,Nguyễn Thị Kim Ngân,Female,21,Pre-Intermediate,58,54,56,4,1,15,0.73,1,0
+157,Phạm Văn Hoàng,Male,22,Intermediate,79,75,77,2,0,10,0.86,0,0
+158,Đỗ Thị Bảo Hân,Female,20,Beginner,49,45,44,5,1,18,0.66,2,1
+159,Lê Minh Quân,Male,24,Advanced,93,90,92,0,0,3,0.99,0,0
+160,Nguyễn Thị Thanh Hương,Female,19,Pre-Intermediate,57,53,55,4,1,14,0.73,1,0
+161,Trần Văn Nam,Male,23,Intermediate,81,78,80,1,0,8,0.90,0,0
+162,Phạm Thị Bích Ngọc,Female,21,Beginner,46,42,41,6,2,20,0.60,3,1
+163,Nguyễn Hoàng Hải,Male,22,Advanced,95,92,94,0,0,2,1.00,0,0
+164,Trần Thị Hồng Nhung,Female,20,Pre-Intermediate,61,57,59,3,1,14,0.75,1,0
+165,Lê Văn Khánh,Male,23,Intermediate,78,74,76,2,0,10,0.85,0,0
+166,Phạm Thị Ngọc Linh,Female,19,Beginner,48,44,43,5,1,18,0.65,2,1
+167,Đỗ Quang Huy,Male,25,Advanced,92,89,91,0,0,3,0.98,0,0
+168,Nguyễn Thị Kim Thảo,Female,21,Pre-Intermediate,59,55,57,4,1,15,0.73,1,0
+169,Lê Hoàng Nam,Male,22,Intermediate,80,77,78,1,0,8,0.88,0,0
+170,Trần Thị Bảo Trâm,Female,20,Beginner,45,41,40,6,2,21,0.60,3,1
+171,Nguyễn Minh Quân,Male,23,Advanced,95,92,94,0,0,2,1.00,0,0
+172,Phạm Thị Ngọc Hân,Female,21,Intermediate,60,56,58,3,1,14,0.75,1,0
+173,Đỗ Hoàng Long,Male,24,Pre-Intermediate,63,59,61,3,1,12,0.78,1,0
+174,Lê Thị Bích Ngọc,Female,21,Elementary,54,50,51,4,1,16,0.70,2,1
+175,Nguyễn Văn Hoàng,Male,23,Intermediate,82,79,81,1,0,9,0.91,0,0
+176,Trần Thị Thuý Nga,Female,20,Beginner,47,43,42,5,1,19,0.65,2,1
+177,Hoàng Quang Huy,Male,25,Advanced,94,91,93,0,0,3,0.99,0,0
+178,Nguyễn Thị Kim Dung,Female,19,Pre-Intermediate,58,54,56,4,1,15,0.73,1,0
+179,Lê Văn Sơn,Male,21,Intermediate,79,75,77,2,0,10,0.86,0,0
+180,Phạm Thị Thảo,Female,22,Beginner,49,45,44,5,1,18,0.66,2,1
+181,Đỗ Văn Khánh,Male,24,Advanced,93,90,92,0,0,3,0.99,0,0
+182,Nguyễn Thị Lan Anh,Female,20,Pre-Intermediate,57,53,55,4,1,14,0.73,1,0
+183,Lê Hoàng Hải,Male,23,Intermediate,81,78,80,1,0,8,0.90,0,0
+184,Trần Thị Bảo Trâm,Female,19,Beginner,46,42,41,6,2,20,0.60,3,1
+185,Nguyễn Quốc Tuấn,Male,22,Advanced,95,92,94,0,0,2,1.00,0,0
+186,Phạm Thị Ngọc Hân,Female,21,Intermediate,61,57,59,3,1,14,0.75,1,0
+187,Đỗ Minh Quân,Male,22,Pre-Intermediate,63,59,61,3,1,12,0.78,1,0
+188,Nguyễn Thị Thanh Mai,Female,20,Elementary,54,50,51,4,1,16,0.70,2,1
+189,Lê Quang Duy,Male,23,Intermediate,82,79,81,1,0,9,0.91,0,0
+190,Trần Thị Ngọc Lan,Female,19,Beginner,47,43,42,5,1,19,0.65,2,1
+191,Hoàng Minh Tuấn,Male,25,Advanced,94,91,93,0,0,3,0.99,0,0
+192,Nguyễn Thị Kim Ngân,Female,21,Pre-Intermediate,58,54,56,4,1,15,0.73,1,0
+193,Lê Văn Khánh,Male,22,Intermediate,80,77,78,1,0,8,0.88,0,0
+194,Trần Thị Bảo Trâm,Female,20,Beginner,45,41,40,6,2,21,0.60,3,1
+195,Nguyễn Minh Quân,Male,23,Advanced,95,92,94,0,0,2,1.00,0,0
+196,Phạm Thị Ngọc Hân,Female,21,Intermediate,60,56,58,3,1,14,0.75,1,0
+197,Đỗ Hoàng Long,Male,24,Pre-Intermediate,63,59,61,3,1,12,0.78,1,0
+198,Lê Thị Bích Ngọc,Female,21,Elementary,54,50,51,4,1,16,0.70,2,1
+199,Nguyễn Văn Hoàng,Male,23,Intermediate,82,79,81,1,0,9,0.91,0,0
+200,Trần Thị Thuý Nga,Female,20,Beginner,47,43,42,5,1,19,0.65,2,1
