@@ -1,0 +1,10 @@
+artifact_location: file:///C:/IS336/ai_dropout/mlruns/297977313328725363/models/m-d8adee5ac22147d2b1077e198b2bddf1/artifacts
+creation_timestamp: 1764431946434
+experiment_id: '297977313328725363'
+last_updated_timestamp: 1764431950977
+model_id: m-d8adee5ac22147d2b1077e198b2bddf1
+model_type: null
+name: model
+source_run_id: 218a30cbbf6a4cbcab7c2b1a81910537
+status: 2
+status_message: null

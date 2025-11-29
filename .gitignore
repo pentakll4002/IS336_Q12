@@ -1,0 +1,57 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================
+# Jupyter Notebook
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================
+# Machine Learning / Data
+# ============================
+# Large datasets
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.joblib
+*.npy
+*.npz
+
+
+# ============================
+# VSCode
+# ============================
+.vscode/
+
+# ============================
+# OS
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# IDE
+# ============================
+.idea/

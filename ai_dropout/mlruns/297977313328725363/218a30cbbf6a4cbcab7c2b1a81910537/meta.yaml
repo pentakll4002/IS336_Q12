@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/IS336/ai_dropout/mlruns/297977313328725363/218a30cbbf6a4cbcab7c2b1a81910537/artifacts
+end_time: 1764431951084
+entry_point_name: ''
+experiment_id: '297977313328725363'
+lifecycle_stage: active
+run_id: 218a30cbbf6a4cbcab7c2b1a81910537
+run_name: stylish-grouse-107
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764431916707
+status: 3
+tags: []
+user_id: dangt

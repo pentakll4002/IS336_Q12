@@ -1,34 +1,34 @@
 student_id,full_name,gender,age,course_level,attendance_rate,homework_completion,test_score,sessions_missed_last_30_days,complaints_count,last_interaction_days_ago,tuition_paid_ratio,late_payment_count,dropout
 1,Nguyễn Văn Nam,Nam,21,Trung cấp,82,76,79,1,0,5,0.92,0,0
-2,Trần Thị Thu Hà,Nữ,19,Cơ bản,67,54,58,3,1,12,0.80,1,0
+2,Trần Thị Thu Hà,Nữ,19,Cơ bản,67,54,58,3,1,12,0.8,1,0
 3,Lê Minh Triết,Nam,23,Trung cấp,45,39,42,6,0,18,0.65,2,1
-4,Phạm Ngọc Linh,Nữ,20,Sơ cấp,90,85,82,0,0,3,1.00,0,0
+4,Phạm Ngọc Linh,Nữ,20,Sơ cấp,90,85,82,0,0,3,1.0,0,0
 5,Huỳnh Gia Khang,Nam,18,Nâng cao,72,60,64,2,1,10,0.87,1,0
-6,Võ Thị Bích Phượng,Nữ,22,Sơ cấp,40,35,30,7,2,25,0.50,3,1
+6,Võ Thị Bích Phượng,Nữ,22,Sơ cấp,40,35,30,7,2,25,0.5,3,1
 7,Đỗ Quang Huy,Nam,24,Trung cấp,88,81,84,1,0,7,0.95,0,0
-8,Nguyễn Thị Thanh Trúc,Nữ,19,Cơ bản,53,48,45,4,1,15,0.70,2,1
-9,Phạm Hoàng Vũ,Nam,21,Nâng cao,91,89,93,0,0,2,1.00,0,0
+8,Nguyễn Thị Thanh Trúc,Nữ,19,Cơ bản,53,48,45,4,1,15,0.7,2,1
+9,Phạm Hoàng Vũ,Nam,21,Nâng cao,91,89,93,0,0,2,1.0,0,0
 10,Trần Bảo Ngọc,Nữ,20,Trung cấp,65,60,62,3,0,12,0.78,1,0
 11,Lê Quang Minh,Nam,22,Trung cấp,58,50,52,5,1,20,0.68,2,1
 12,Nguyễn Thị Mỹ Dung,Nữ,25,Sơ cấp,74,71,69,2,0,9,0.85,1,0
 13,Võ Minh Khoa,Nam,18,Cơ bản,47,40,42,6,2,23,0.55,3,1
-14,Trần Kim Ngân,Nữ,19,Nâng cao,95,92,94,0,0,1,1.00,0,0
+14,Trần Kim Ngân,Nữ,19,Nâng cao,95,92,94,0,0,1,1.0,0,0
 15,Hoàng Gia Bảo,Nam,26,Trung cấp,62,57,58,3,1,14,0.75,1,0
 16,Phạm Thị Hân,Nữ,20,Trung cấp,41,38,35,8,2,30,0.48,4,1
-17,Nguyễn Thành Phát,Nam,22,Cơ bản,78,72,70,1,0,5,0.90,0,0
+17,Nguyễn Thành Phát,Nam,22,Cơ bản,78,72,70,1,0,5,0.9,0,0
 18,Lê Ngọc Ánh,Nữ,21,Sơ cấp,52,47,45,4,1,16,0.67,2,1
 19,Trần Quốc Hiếu,Nam,19,Trung cấp,86,84,82,0,0,3,0.96,0,0
 20,Hồ Tuyết Nhi,Nữ,23,Trung cấp,59,55,57,3,1,11,0.73,1,0
 21,Nguyễn Minh Khang,Nam,20,Cơ bản,63,58,56,4,1,13,0.77,1,0
-22,Phạm Thị Thu,Nữ,18,Sơ cấp,49,45,42,6,2,22,0.60,2,1
-23,Lê Gia Bảo,Nam,25,Nâng cao,92,90,91,0,0,2,1.00,0,0
-24,Trần Nhật Linh,Nữ,21,Trung cấp,57,50,52,5,1,19,0.70,2,1
+22,Phạm Thị Thu,Nữ,18,Sơ cấp,49,45,42,6,2,22,0.6,2,1
+23,Lê Gia Bảo,Nam,25,Nâng cao,92,90,91,0,0,2,1.0,0,0
+24,Trần Nhật Linh,Nữ,21,Trung cấp,57,50,52,5,1,19,0.7,2,1
 25,Hoàng Minh Đức,Nam,23,Trung cấp,68,64,63,2,0,9,0.83,1,0
 26,Võ Yến Nhi,Nữ,19,Cơ bản,75,70,72,1,0,7,0.88,0,0
-27,Nguyễn Hưng Thịnh,Nam,24,Sơ cấp,44,38,36,7,2,26,0.50,3,1
+27,Nguyễn Hưng Thịnh,Nam,24,Sơ cấp,44,38,36,7,2,26,0.5,3,1
 28,Trần Bảo Châu,Nữ,20,Trung cấp,80,75,78,1,0,6,0.94,0,0
 29,Lê Quang Huy,Nam,22,Trung cấp,56,49,50,4,1,17,0.73,1,1
-30,Phạm Thanh Hà,Nữ,21,Nâng cao,97,93,95,0,0,1,1.00,0,0
+30,Phạm Thanh Hà,Nữ,21,Nâng cao,97,93,95,0,0,1,1.0,0,0
 31,Đỗ Văn Khoa,Nam,18,Cơ bản,48,42,40,6,2,21,0.58,2,1
 32,Nguyễn Hồng Ngọc,Nữ,22,Sơ cấp,72,67,64,2,0,8,0.82,1,0
 33,Trần Minh Tuấn,Nam,23,Trung cấp,60,55,54,3,1,12,0.79,1,0
@@ -42,9 +42,9 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 41,Phạm Minh Hoàng,Nam,24,Cơ bản,61,56,55,3,1,13,0.78,1,0
 42,Trần Bảo Anh,Nữ,18,Sơ cấp,50,46,44,5,1,19,0.69,2,1
 43,Hoàng Thành Đạt,Nam,23,Trung cấp,85,83,82,0,0,4,0.95,0,0
-44,Nguyễn Thu Trang,Nữ,20,Nâng cao,98,95,97,0,0,1,1.00,0,0
+44,Nguyễn Thu Trang,Nữ,20,Nâng cao,98,95,97,0,0,1,1.0,0,0
 45,Võ Minh Quân,Nam,19,Trung cấp,62,57,58,3,1,12,0.77,1,0
-46,Phạm Ngọc Hiền,Nữ,21,Cơ bản,47,43,41,6,2,24,0.60,3,1
+46,Phạm Ngọc Hiền,Nữ,21,Cơ bản,47,43,41,6,2,24,0.6,3,1
 47,Lê Hải Đăng,Nam,22,Sơ cấp,70,65,63,2,0,10,0.84,1,0
 48,Trần Kim Chi,Nữ,23,Trung cấp,55,51,50,5,1,17,0.72,2,1
 49,Nguyễn Hoàng Phúc,Nam,25,Nâng cao,90,88,89,1,0,3,0.97,0,0
@@ -53,7 +53,7 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 52,Nguyễn Thúy Vy,Nữ,19,Sơ cấp,72,68,70,1,0,7,0.85,0,0
 53,Lê Quốc Toàn,Nam,25,Nâng cao,88,85,87,0,0,3,0.95,0,0
 54,Trần Bích Lam,Nữ,21,Trung cấp,63,59,61,3,1,11,0.78,1,0
-55,Võ Anh Kiệt,Nam,22,Sơ cấp,55,50,52,4,1,16,0.70,2,1
+55,Võ Anh Kiệt,Nam,22,Sơ cấp,55,50,52,4,1,16,0.7,2,1
 56,Nguyễn Thùy Nhi,Nữ,18,Nâng cao,92,89,91,0,0,2,0.98,0,0
 57,Đặng Trọng Phú,Nam,27,Trung cấp,58,53,55,4,1,15,0.72,1,0
 58,Hồ Mai Chi,Nữ,20,Sơ cấp,68,63,65,2,0,9,0.82,1,0
@@ -67,7 +67,7 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 66,Võ Thảo Vi,Nữ,18,Trung cấp,59,55,57,4,1,14,0.74,1,0
 67,Hoàng Văn Khôi,Nam,25,Sơ cấp,53,48,50,5,1,17,0.71,2,1
 68,Phạm Mỹ Hạnh,Nữ,23,Nâng cao,89,86,88,0,0,4,0.95,0,0
-69,Trịnh Thiên Long,Nam,22,Trung cấp,66,62,64,3,1,11,0.80,1,0
+69,Trịnh Thiên Long,Nam,22,Trung cấp,66,62,64,3,1,11,0.8,1,0
 70,Nguyễn Ngọc Hân,Nữ,19,Sơ cấp,71,66,68,2,0,9,0.84,1,0
 71,Bùi Đức Thịnh,Nam,24,Nâng cao,84,81,83,1,0,7,0.91,0,0
 72,Lê Bích Phượng,Nữ,20,Trung cấp,61,57,59,3,1,13,0.76,1,0
@@ -77,7 +77,7 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 76,Nguyễn Thiên Kim,Nữ,18,Sơ cấp,69,64,66,2,0,10,0.81,1,0
 77,Trần Quốc Bảo,Nam,20,Nâng cao,88,85,87,0,0,4,0.96,0,0
 78,Đỗ Mai Hương,Nữ,19,Trung cấp,60,56,58,3,1,14,0.75,1,0
-79,Vũ Hữu Nghĩa,Nam,27,Sơ cấp,52,47,49,4,1,17,0.70,2,1
+79,Vũ Hữu Nghĩa,Nam,27,Sơ cấp,52,47,49,4,1,17,0.7,2,1
 80,Nguyễn Bảo Trân,Nữ,22,Nâng cao,91,88,90,0,0,3,0.97,0,0
 81,Lê Hoàng Nam,Nam,21,Trung cấp,65,61,63,3,1,12,0.79,1,0
 82,Phạm Mỹ Duyên,Nữ,20,Sơ cấp,67,62,64,2,0,9,0.82,1,0
@@ -98,32 +98,32 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 97,Nguyễn Thành Nhân,Nam,22,Sơ cấp,55,50,52,4,1,15,0.71,2,1
 98,Đặng Mỹ Quyên,Nữ,18,Nâng cao,92,89,91,0,0,2,0.98,0,0
 99,Phan Nhật Quang,Nam,24,Trung cấp,63,59,61,3,1,12,0.78,1,0
-100,Nguyễn Hoàng Long,Nam,23,Trung cấp,78,72,70,2,1,12,0.80,1,0
+100,Nguyễn Hoàng Long,Nam,23,Trung cấp,78,72,70,2,1,12,0.8,1,0
 101,Trần Thị Lan,Nữ,20,Sơ cấp,55,50,48,5,1,18,0.68,2,1
 102,Lê Văn Hùng,Nam,25,Nâng cao,92,88,90,0,0,3,0.98,0,0
 103,Phạm Thị Thúy,Nữ,22,Trung cấp,60,57,59,3,1,14,0.75,1,0
-104,Đỗ Minh Tuấn,Nam,21,Trung cấp,82,79,81,1,0,7,0.90,0,0
-105,Nguyễn Thị Mỹ Linh,Nữ,19,Sơ cấp,50,46,45,4,1,16,0.70,2,1
-106,Hoàng Văn Khôi,Nam,24,Nâng cao,94,91,93,0,0,2,1.00,0,0
+104,Đỗ Minh Tuấn,Nam,21,Trung cấp,82,79,81,1,0,7,0.9,0,0
+105,Nguyễn Thị Mỹ Linh,Nữ,19,Sơ cấp,50,46,45,4,1,16,0.7,2,1
+106,Hoàng Văn Khôi,Nam,24,Nâng cao,94,91,93,0,0,2,1.0,0,0
 107,Trần Bảo Ngọc,Nữ,21,Trung cấp,63,58,60,3,1,13,0.78,1,0
 108,Lê Thị Thanh Mai,Nữ,20,Trung cấp,57,52,54,4,1,15,0.72,1,0
 109,Nguyễn Đức Anh,Nam,22,Sơ cấp,48,44,43,5,2,20,0.65,2,1
 110,Phạm Hồng Sơn,Nam,23,Trung cấp,80,77,79,2,0,8,0.88,0,0
-111,Trần Thị Ngọc Anh,Nữ,19,Nâng cao,96,93,95,0,0,2,1.00,0,0
+111,Trần Thị Ngọc Anh,Nữ,19,Nâng cao,96,93,95,0,0,2,1.0,0,0
 112,Lê Văn Minh,Nam,21,Trung cấp,62,58,59,3,1,14,0.76,1,0
-113,Nguyễn Thị Thanh Hương,Nữ,20,Cơ bản,55,50,52,4,1,16,0.70,2,1
+113,Nguyễn Thị Thanh Hương,Nữ,20,Cơ bản,55,50,52,4,1,16,0.7,2,1
 114,Đỗ Quang Huy,Nam,24,Trung cấp,84,81,83,1,0,9,0.92,0,0
-115,Hoàng Thị Bích Phương,Nữ,22,Sơ cấp,45,40,38,6,2,22,0.60,3,1
+115,Hoàng Thị Bích Phương,Nữ,22,Sơ cấp,45,40,38,6,2,22,0.6,3,1
 116,Phan Minh Tâm,Nam,25,Nâng cao,91,88,90,0,0,3,0.98,0,0
 117,Nguyễn Thị Kim Liên,Nữ,21,Trung cấp,58,54,56,4,1,15,0.73,1,0
 118,Lê Hoàng Nam,Nam,23,Trung cấp,79,75,77,2,0,10,0.85,0,0
 119,Trần Thị Mai Linh,Nữ,19,Sơ cấp,49,45,44,5,1,18,0.66,2,1
-120,Nguyễn Thanh Tùng,Nam,22,Nâng cao,95,92,94,0,0,2,1.00,0,0
+120,Nguyễn Thanh Tùng,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
 121,Phạm Thị Ngọc Anh,Nữ,20,Trung cấp,61,57,59,3,1,14,0.75,1,0
 122,Đỗ Văn Khải,Nam,24,Trung cấp,64,60,62,3,1,12,0.78,1,0
-123,Lê Thị Thúy Hằng,Nữ,21,Cơ bản,53,49,50,4,1,16,0.70,2,1
-124,Nguyễn Hữu Phước,Nam,23,Trung cấp,81,78,80,1,0,8,0.90,0,0
-125,Trần Thị Kim Chi,Nữ,20,Sơ cấp,46,42,40,6,2,20,0.60,3,1
+123,Lê Thị Thúy Hằng,Nữ,21,Cơ bản,53,49,50,4,1,16,0.7,2,1
+124,Nguyễn Hữu Phước,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+125,Trần Thị Kim Chi,Nữ,20,Sơ cấp,46,42,40,6,2,20,0.6,3,1
 126,Hoàng Minh Tuấn,Nam,25,Nâng cao,93,90,92,0,0,3,0.99,0,0
 127,Nguyễn Thị Mỹ Hạnh,Nữ,19,Trung cấp,59,55,57,4,1,15,0.73,1,0
 128,Lê Văn Hòa,Nam,21,Trung cấp,77,74,75,2,0,9,0.86,0,0
@@ -131,11 +131,11 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 130,Đỗ Quốc Hưng,Nam,24,Nâng cao,92,89,91,0,0,3,0.98,0,0
 131,Nguyễn Thị Bảo Ngọc,Nữ,20,Trung cấp,57,53,55,4,1,14,0.73,1,0
 132,Lê Quang Duy,Nam,23,Trung cấp,80,77,78,1,0,8,0.88,0,0
-133,Trần Thị Ngọc Linh,Nữ,19,Sơ cấp,45,41,40,6,2,21,0.60,3,1
-134,Nguyễn Minh Quân,Nam,22,Nâng cao,95,92,94,0,0,2,1.00,0,0
+133,Trần Thị Ngọc Linh,Nữ,19,Sơ cấp,45,41,40,6,2,21,0.6,3,1
+134,Nguyễn Minh Quân,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
 135,Phạm Thị Thanh Vân,Nữ,20,Trung cấp,60,56,58,3,1,14,0.75,1,0
 136,Đỗ Hoàng Long,Nam,24,Trung cấp,63,59,61,3,1,12,0.78,1,0
-137,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.70,2,1
+137,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.7,2,1
 138,Nguyễn Văn Hoàng,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
 139,Trần Thị Thúy Nga,Nữ,20,Sơ cấp,47,43,42,5,1,19,0.65,2,1
 140,Hoàng Quang Huy,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
@@ -144,12 +144,12 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 143,Phạm Thị Thảo,Nữ,22,Sơ cấp,49,45,44,5,1,18,0.66,2,1
 144,Đỗ Văn Khánh,Nam,24,Nâng cao,93,90,92,0,0,3,0.99,0,0
 145,Nguyễn Thị Lan Anh,Nữ,20,Trung cấp,57,53,55,4,1,14,0.73,1,0
-146,Lê Hoàng Hải,Nam,23,Trung cấp,81,78,80,1,0,8,0.90,0,0
-147,Trần Thị Bảo Trâm,Nữ,19,Sơ cấp,46,42,41,6,2,20,0.60,3,1
-148,Nguyễn Quốc Tuấn,Nam,22,Nâng cao,95,92,94,0,0,2,1.00,0,0
+146,Lê Hoàng Hải,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+147,Trần Thị Bảo Trâm,Nữ,19,Sơ cấp,46,42,41,6,2,20,0.6,3,1
+148,Nguyễn Quốc Tuấn,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
 149,Phạm Thị Ngọc Hân,Nữ,21,Trung cấp,61,57,59,3,1,14,0.75,1,0
 150,Đỗ Minh Quân,Nam,22,Trung cấp,63,59,61,3,1,12,0.78,1,0
-151,Nguyễn Thị Thanh Mai,Nữ,20,Cơ bản,54,50,51,4,1,16,0.70,2,1
+151,Nguyễn Thị Thanh Mai,Nữ,20,Cơ bản,54,50,51,4,1,16,0.7,2,1
 152,Lê Quang Huy,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
 153,Trần Thị Ngọc Lan,Nữ,19,Sơ cấp,47,43,42,5,1,19,0.65,2,1
 154,Hoàng Minh Tuấn,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
@@ -158,20 +158,20 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 157,Đỗ Thị Bảo Hân,Nữ,20,Sơ cấp,49,45,44,5,1,18,0.66,2,1
 158,Lê Minh Quân,Nam,24,Nâng cao,93,90,92,0,0,3,0.99,0,0
 159,Nguyễn Thị Thanh Hương,Nữ,19,Trung cấp,57,53,55,4,1,14,0.73,1,0
-160,Trần Văn Nam,Nam,23,Trung cấp,81,78,80,1,0,8,0.90,0,0
-161,Phạm Thị Bích Ngọc,Nữ,21,Sơ cấp,46,42,41,6,2,20,0.60,3,1
-162,Nguyễn Hoàng Hải,Nam,22,Nâng cao,95,92,94,0,0,2,1.00,0,0
+160,Trần Văn Nam,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+161,Phạm Thị Bích Ngọc,Nữ,21,Sơ cấp,46,42,41,6,2,20,0.6,3,1
+162,Nguyễn Hoàng Hải,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
 163,Trần Thị Hồng Nhung,Nữ,20,Trung cấp,61,57,59,3,1,14,0.75,1,0
 164,Lê Văn Khánh,Nam,23,Trung cấp,78,74,76,2,0,10,0.85,0,0
 165,Phạm Thị Ngọc Linh,Nữ,19,Sơ cấp,48,44,43,5,1,18,0.65,2,1
 166,Đỗ Quang Huy,Nam,25,Nâng cao,92,89,91,0,0,3,0.98,0,0
 167,Nguyễn Thị Kim Thảo,Nữ,21,Trung cấp,59,55,57,4,1,15,0.73,1,0
 168,Lê Hoàng Nam,Nam,22,Trung cấp,80,77,78,1,0,8,0.88,0,0
-169,Trần Thị Bảo Trâm,Nữ,20,Sơ cấp,45,41,40,6,2,21,0.60,3,1
-170,Nguyễn Minh Quân,Nam,23,Nâng cao,95,92,94,0,0,2,1.00,0,0
+169,Trần Thị Bảo Trâm,Nữ,20,Sơ cấp,45,41,40,6,2,21,0.6,3,1
+170,Nguyễn Minh Quân,Nam,23,Nâng cao,95,92,94,0,0,2,1.0,0,0
 171,Phạm Thị Ngọc Hân,Nữ,21,Trung cấp,60,56,58,3,1,14,0.75,1,0
 172,Đỗ Hoàng Long,Nam,24,Trung cấp,63,59,61,3,1,12,0.78,1,0
-173,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.70,2,1
+173,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.7,2,1
 174,Nguyễn Văn Hoàng,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
 175,Trần Thị Thúy Nga,Nữ,20,Sơ cấp,47,43,42,5,1,19,0.65,2,1
 176,Hoàng Quang Huy,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
@@ -180,22 +180,22 @@ student_id,full_name,gender,age,course_level,attendance_rate,homework_completion
 179,Phạm Thị Thảo,Nữ,22,Sơ cấp,49,45,44,5,1,18,0.66,2,1
 180,Đỗ Văn Khánh,Nam,24,Nâng cao,93,90,92,0,0,3,0.99,0,0
 181,Nguyễn Thị Lan Anh,Nữ,20,Trung cấp,57,53,55,4,1,14,0.73,1,0
-182,Lê Hoàng Hải,Nam,23,Trung cấp,81,78,80,1,0,8,0.90,0,0
-183,Trần Thị Bảo Trâm,Nữ,19,Sơ cấp,46,42,41,6,2,20,0.60,3,1
-184,Nguyễn Quốc Tuấn,Nam,22,Nâng cao,95,92,94,0,0,2,1.00,0,0
+182,Lê Hoàng Hải,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+183,Trần Thị Bảo Trâm,Nữ,19,Sơ cấp,46,42,41,6,2,20,0.6,3,1
+184,Nguyễn Quốc Tuấn,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
 185,Phạm Thị Ngọc Hân,Nữ,21,Trung cấp,61,57,59,3,1,14,0.75,1,0
 186,Đỗ Minh Quân,Nam,22,Trung cấp,63,59,61,3,1,12,0.78,1,0
-187,Nguyễn Thị Thanh Mai,Nữ,20,Cơ bản,54,50,51,4,1,16,0.70,2,1
+187,Nguyễn Thị Thanh Mai,Nữ,20,Cơ bản,54,50,51,4,1,16,0.7,2,1
 188,Lê Quang Duy,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
 189,Trần Thị Ngọc Lan,Nữ,19,Sơ cấp,47,43,42,5,1,19,0.65,2,1
 190,Hoàng Minh Tuấn,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
 191,Nguyễn Thị Kim Ngân,Nữ,21,Trung cấp,58,54,56,4,1,15,0.73,1,0
 192,Lê Văn Khánh,Nam,22,Trung cấp,80,77,78,1,0,8,0.88,0,0
-193,Trần Thị Bảo Trâm,Nữ,20,Sơ cấp,45,41,40,6,2,21,0.60,3,1
-194,Nguyễn Minh Quân,Nam,23,Nâng cao,95,92,94,0,0,2,1.00,0,0
+193,Trần Thị Bảo Trâm,Nữ,20,Sơ cấp,45,41,40,6,2,21,0.6,3,1
+194,Nguyễn Minh Quân,Nam,23,Nâng cao,95,92,94,0,0,2,1.0,0,0
 195,Phạm Thị Ngọc Hân,Nữ,21,Trung cấp,60,56,58,3,1,14,0.75,1,0
 196,Đỗ Hoàng Long,Nam,24,Trung cấp,63,59,61,3,1,12,0.78,1,0
-197,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.70,2,1
+197,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.7,2,1
 198,Nguyễn Văn Hoàng,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
 199,Trần Thị Thúy Nga,Nữ,20,Sơ cấp,47,43,42,5,1,19,0.65,2,1
 200,Hoàng Quang Huy,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0

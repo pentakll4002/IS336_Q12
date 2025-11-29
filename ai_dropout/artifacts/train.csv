@@ -1,0 +1,161 @@
+student_id,full_name,gender,age,course_level,attendance_rate,homework_completion,test_score,sessions_missed_last_30_days,complaints_count,last_interaction_days_ago,tuition_paid_ratio,late_payment_count,dropout
+80,Nguyễn Bảo Trân,Nữ,22,Nâng cao,91,88,90,0,0,3,0.97,0,0
+198,Nguyễn Văn Hoàng,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
+39,Lê Tuấn Kiệt,Nam,20,Nâng cao,93,90,94,0,0,3,0.99,0,0
+25,Hoàng Minh Đức,Nam,23,Trung cấp,68,64,63,2,0,9,0.83,1,0
+123,Lê Thị Thúy Hằng,Nữ,21,Cơ bản,53,49,50,4,1,16,0.7,2,1
+196,Đỗ Hoàng Long,Nam,24,Trung cấp,63,59,61,3,1,12,0.78,1,0
+30,Phạm Thanh Hà,Nữ,21,Nâng cao,97,93,95,0,0,1,1.0,0,0
+20,Hồ Tuyết Nhi,Nữ,23,Trung cấp,59,55,57,3,1,11,0.73,1,0
+144,Đỗ Văn Khánh,Nam,24,Nâng cao,93,90,92,0,0,3,0.99,0,0
+87,Hoàng Gia Huy,Nam,25,Trung cấp,64,60,62,3,1,13,0.78,1,0
+115,Hoàng Thị Bích Phương,Nữ,22,Sơ cấp,45,40,38,6,2,22,0.6,3,1
+174,Nguyễn Văn Hoàng,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
+6,Võ Thị Bích Phượng,Nữ,22,Sơ cấp,40,35,30,7,2,25,0.5,3,1
+127,Nguyễn Thị Mỹ Hạnh,Nữ,19,Trung cấp,59,55,57,4,1,15,0.73,1,0
+118,Lê Hoàng Nam,Nam,23,Trung cấp,79,75,77,2,0,10,0.85,0,0
+74,Ngô Thảo My,Nữ,21,Nâng cao,86,83,85,1,0,6,0.93,0,0
+141,Nguyễn Thị Kim Dung,Nữ,19,Trung cấp,58,54,56,4,1,15,0.73,1,0
+99,Phan Nhật Quang,Nam,24,Trung cấp,63,59,61,3,1,12,0.78,1,0
+173,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.7,2,1
+97,Nguyễn Thành Nhân,Nam,22,Sơ cấp,55,50,52,4,1,15,0.71,2,1
+170,Nguyễn Minh Quân,Nam,23,Nâng cao,95,92,94,0,0,2,1.0,0,0
+98,Đặng Mỹ Quyên,Nữ,18,Nâng cao,92,89,91,0,0,2,0.98,0,0
+32,Nguyễn Hồng Ngọc,Nữ,22,Sơ cấp,72,67,64,2,0,8,0.82,1,0
+13,Võ Minh Khoa,Nam,18,Cơ bản,47,40,42,6,2,23,0.55,3,1
+36,Nguyễn Ngọc Mai,Nữ,19,Cơ bản,66,60,58,2,0,11,0.83,1,0
+120,Nguyễn Thanh Tùng,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
+43,Hoàng Thành Đạt,Nam,23,Trung cấp,85,83,82,0,0,4,0.95,0,0
+190,Hoàng Minh Tuấn,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
+91,Nguyễn Văn Kiệt,Nam,21,Sơ cấp,68,63,65,2,0,9,0.82,1,0
+137,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.7,2,1
+52,Nguyễn Thúy Vy,Nữ,19,Sơ cấp,72,68,70,1,0,7,0.85,0,0
+128,Lê Văn Hòa,Nam,21,Trung cấp,77,74,75,2,0,9,0.86,0,0
+163,Trần Thị Hồng Nhung,Nữ,20,Trung cấp,61,57,59,3,1,14,0.75,1,0
+42,Trần Bảo Anh,Nữ,18,Sơ cấp,50,46,44,5,1,19,0.69,2,1
+119,Trần Thị Mai Linh,Nữ,19,Sơ cấp,49,45,44,5,1,18,0.66,2,1
+114,Đỗ Quang Huy,Nam,24,Trung cấp,84,81,83,1,0,9,0.92,0,0
+27,Nguyễn Hưng Thịnh,Nam,24,Sơ cấp,44,38,36,7,2,26,0.5,3,1
+140,Hoàng Quang Huy,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
+101,Trần Thị Lan,Nữ,20,Sơ cấp,55,50,48,5,1,18,0.68,2,1
+112,Lê Văn Minh,Nam,21,Trung cấp,62,58,59,3,1,14,0.76,1,0
+3,Lê Minh Triết,Nam,23,Trung cấp,45,39,42,6,0,18,0.65,2,1
+78,Đỗ Mai Hương,Nữ,19,Trung cấp,60,56,58,3,1,14,0.75,1,0
+47,Lê Hải Đăng,Nam,22,Sơ cấp,70,65,63,2,0,10,0.84,1,0
+188,Lê Quang Duy,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
+192,Lê Văn Khánh,Nam,22,Trung cấp,80,77,78,1,0,8,0.88,0,0
+86,Lý Ngọc Bích,Nữ,20,Nâng cao,89,86,88,0,0,4,0.95,0,0
+162,Nguyễn Hoàng Hải,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
+37,Võ Văn Thiện,Nam,26,Trung cấp,43,37,35,7,2,27,0.52,3,1
+191,Nguyễn Thị Kim Ngân,Nữ,21,Trung cấp,58,54,56,4,1,15,0.73,1,0
+62,Lê Thanh Hương,Nữ,19,Nâng cao,90,87,89,0,0,3,0.96,0,0
+23,Lê Gia Bảo,Nam,25,Nâng cao,92,90,91,0,0,2,1.0,0,0
+142,Lê Văn Sơn,Nam,21,Trung cấp,79,75,77,2,0,10,0.86,0,0
+102,Lê Văn Hùng,Nam,25,Nâng cao,92,88,90,0,0,3,0.98,0,0
+34,Hồ Bích Vân,Nữ,20,Nâng cao,87,85,88,1,0,4,0.96,0,0
+12,Nguyễn Thị Mỹ Dung,Nữ,25,Sơ cấp,74,71,69,2,0,9,0.85,1,0
+195,Phạm Thị Ngọc Hân,Nữ,21,Trung cấp,60,56,58,3,1,14,0.75,1,0
+160,Trần Văn Nam,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+7,Đỗ Quang Huy,Nam,24,Trung cấp,88,81,84,1,0,7,0.95,0,0
+28,Trần Bảo Châu,Nữ,20,Trung cấp,80,75,78,1,0,6,0.94,0,0
+121,Phạm Thị Ngọc Anh,Nữ,20,Trung cấp,61,57,59,3,1,14,0.75,1,0
+5,Huỳnh Gia Khang,Nam,18,Nâng cao,72,60,64,2,1,10,0.87,1,0
+33,Trần Minh Tuấn,Nam,23,Trung cấp,60,55,54,3,1,12,0.79,1,0
+143,Phạm Thị Thảo,Nữ,22,Sơ cấp,49,45,44,5,1,18,0.66,2,1
+146,Lê Hoàng Hải,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+110,Phạm Hồng Sơn,Nam,23,Trung cấp,80,77,79,2,0,8,0.88,0,0
+145,Nguyễn Thị Lan Anh,Nữ,20,Trung cấp,57,53,55,4,1,14,0.73,1,0
+11,Lê Quang Minh,Nam,22,Trung cấp,58,50,52,5,1,20,0.68,2,1
+63,Trần Quang Lâm,Nam,21,Trung cấp,64,60,62,3,1,12,0.79,1,0
+113,Nguyễn Thị Thanh Hương,Nữ,20,Cơ bản,55,50,52,4,1,16,0.7,2,1
+147,Trần Thị Bảo Trâm,Nữ,19,Sơ cấp,46,42,41,6,2,20,0.6,3,1
+167,Nguyễn Thị Kim Thảo,Nữ,21,Trung cấp,59,55,57,4,1,15,0.73,1,0
+1,Nguyễn Văn Nam,Nam,21,Trung cấp,82,76,79,1,0,5,0.92,0,0
+199,Trần Thị Thúy Nga,Nữ,20,Sơ cấp,47,43,42,5,1,19,0.65,2,1
+154,Hoàng Minh Tuấn,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
+71,Bùi Đức Thịnh,Nam,24,Nâng cao,84,81,83,1,0,7,0.91,0,0
+124,Nguyễn Hữu Phước,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+65,Nguyễn Hoài Phong,Nam,28,Nâng cao,87,84,86,1,0,5,0.94,0,0
+45,Võ Minh Quân,Nam,19,Trung cấp,62,57,58,3,1,12,0.77,1,0
+164,Lê Văn Khánh,Nam,23,Trung cấp,78,74,76,2,0,10,0.85,0,0
+29,Lê Quang Huy,Nam,22,Trung cấp,56,49,50,4,1,17,0.73,1,1
+41,Phạm Minh Hoàng,Nam,24,Cơ bản,61,56,55,3,1,13,0.78,1,0
+109,Nguyễn Đức Anh,Nam,22,Sơ cấp,48,44,43,5,2,20,0.65,2,1
+156,Phạm Văn Hoàng,Nam,22,Trung cấp,79,75,77,2,0,10,0.86,0,0
+157,Đỗ Thị Bảo Hân,Nữ,20,Sơ cấp,49,45,44,5,1,18,0.66,2,1
+26,Võ Yến Nhi,Nữ,19,Cơ bản,75,70,72,1,0,7,0.88,0,0
+24,Trần Nhật Linh,Nữ,21,Trung cấp,57,50,52,5,1,19,0.7,2,1
+185,Phạm Thị Ngọc Hân,Nữ,21,Trung cấp,61,57,59,3,1,14,0.75,1,0
+148,Nguyễn Quốc Tuấn,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
+82,Phạm Mỹ Duyên,Nữ,20,Sơ cấp,67,62,64,2,0,9,0.82,1,0
+40,Nguyễn Thị Thảo,Nữ,22,Trung cấp,57,52,50,4,1,14,0.74,1,1
+169,Trần Thị Bảo Trâm,Nữ,20,Sơ cấp,45,41,40,6,2,21,0.6,3,1
+48,Trần Kim Chi,Nữ,23,Trung cấp,55,51,50,5,1,17,0.72,2,1
+95,Võ Minh Hoàng,Nam,26,Nâng cao,85,82,84,1,0,7,0.92,0,0
+155,Nguyễn Thị Kim Ngân,Nữ,21,Trung cấp,58,54,56,4,1,15,0.73,1,0
+44,Nguyễn Thu Trang,Nữ,20,Nâng cao,98,95,97,0,0,1,1.0,0,0
+139,Trần Thị Thúy Nga,Nữ,20,Sơ cấp,47,43,42,5,1,19,0.65,2,1
+4,Phạm Ngọc Linh,Nữ,20,Sơ cấp,90,85,82,0,0,3,1.0,0,0
+106,Hoàng Văn Khôi,Nam,24,Nâng cao,94,91,93,0,0,2,1.0,0,0
+54,Trần Bích Lam,Nữ,21,Trung cấp,63,59,61,3,1,11,0.78,1,0
+134,Nguyễn Minh Quân,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
+181,Nguyễn Thị Lan Anh,Nữ,20,Trung cấp,57,53,55,4,1,14,0.73,1,0
+179,Phạm Thị Thảo,Nữ,22,Sơ cấp,49,45,44,5,1,18,0.66,2,1
+186,Đỗ Minh Quân,Nam,22,Trung cấp,63,59,61,3,1,12,0.78,1,0
+50,Hồ Mỹ Linh,Nữ,20,Trung cấp,58,53,55,3,1,16,0.75,1,1
+81,Lê Hoàng Nam,Nam,21,Trung cấp,65,61,63,3,1,12,0.79,1,0
+35,Lê Hoàng Long,Nam,25,Trung cấp,53,48,50,5,2,18,0.71,2,1
+8,Nguyễn Thị Thanh Trúc,Nữ,19,Cơ bản,53,48,45,4,1,15,0.7,2,1
+111,Trần Thị Ngọc Anh,Nữ,19,Nâng cao,96,93,95,0,0,2,1.0,0,0
+92,Lê Khánh Ngọc,Nữ,19,Nâng cao,90,87,89,0,0,3,0.96,0,0
+84,Nguyễn Thùy Dương,Nữ,18,Trung cấp,58,54,56,4,1,15,0.73,1,0
+177,Nguyễn Thị Kim Dung,Nữ,19,Trung cấp,58,54,56,4,1,15,0.73,1,0
+182,Lê Hoàng Hải,Nam,23,Trung cấp,81,78,80,1,0,8,0.9,0,0
+90,Đỗ Hương Trà,Nữ,22,Trung cấp,59,55,57,4,1,14,0.74,1,0
+9,Phạm Hoàng Vũ,Nam,21,Nâng cao,91,89,93,0,0,2,1.0,0,0
+14,Trần Kim Ngân,Nữ,19,Nâng cao,95,92,94,0,0,1,1.0,0,0
+60,Nguyễn Diễm Thúy,Nữ,22,Trung cấp,62,58,60,3,1,13,0.77,1,0
+172,Đỗ Hoàng Long,Nam,24,Trung cấp,63,59,61,3,1,12,0.78,1,0
+132,Lê Quang Duy,Nam,23,Trung cấp,80,77,78,1,0,8,0.88,0,0
+18,Lê Ngọc Ánh,Nữ,21,Sơ cấp,52,47,45,4,1,16,0.67,2,1
+73,Đặng Hoàng Triều,Nam,26,Sơ cấp,54,49,51,4,1,16,0.69,2,1
+176,Hoàng Quang Huy,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
+135,Phạm Thị Thanh Vân,Nữ,20,Trung cấp,60,56,58,3,1,14,0.75,1,0
+168,Lê Hoàng Nam,Nam,22,Trung cấp,80,77,78,1,0,8,0.88,0,0
+184,Nguyễn Quốc Tuấn,Nam,22,Nâng cao,95,92,94,0,0,2,1.0,0,0
+64,Đỗ Nhật Lệ,Nữ,20,Sơ cấp,70,65,67,2,0,8,0.83,1,0
+55,Võ Anh Kiệt,Nam,22,Sơ cấp,55,50,52,4,1,16,0.7,2,1
+108,Lê Thị Thanh Mai,Nữ,20,Trung cấp,57,52,54,4,1,15,0.72,1,0
+51,Phan Hữu Đức,Nam,23,Trung cấp,65,58,62,2,1,14,0.75,1,0
+197,Lê Thị Bích Ngọc,Nữ,21,Cơ bản,54,50,51,4,1,16,0.7,2,1
+59,Phạm Quốc Khánh,Nam,24,Nâng cao,85,82,84,1,0,6,0.92,0,0
+49,Nguyễn Hoàng Phúc,Nam,25,Nâng cao,90,88,89,1,0,3,0.97,0,0
+89,Phan Tấn Tài,Nam,28,Nâng cao,86,83,85,1,0,6,0.93,0,0
+22,Phạm Thị Thu,Nữ,18,Sơ cấp,49,45,42,6,2,22,0.6,2,1
+58,Hồ Mai Chi,Nữ,20,Sơ cấp,68,63,65,2,0,9,0.82,1,0
+161,Phạm Thị Bích Ngọc,Nữ,21,Sơ cấp,46,42,41,6,2,20,0.6,3,1
+193,Trần Thị Bảo Trâm,Nữ,20,Sơ cấp,45,41,40,6,2,21,0.6,3,1
+130,Đỗ Quốc Hưng,Nam,24,Nâng cao,92,89,91,0,0,3,0.98,0,0
+38,Trần Khánh Huyền,Nữ,21,Sơ cấp,79,72,70,1,0,5,0.89,0,0
+158,Lê Minh Quân,Nam,24,Nâng cao,93,90,92,0,0,3,0.99,0,0
+194,Nguyễn Minh Quân,Nam,23,Nâng cao,95,92,94,0,0,2,1.0,0,0
+2,Trần Thị Thu Hà,Nữ,19,Cơ bản,67,54,58,3,1,12,0.8,1,0
+53,Lê Quốc Toàn,Nam,25,Nâng cao,88,85,87,0,0,3,0.95,0,0
+150,Đỗ Minh Quân,Nam,22,Trung cấp,63,59,61,3,1,12,0.78,1,0
+131,Nguyễn Thị Bảo Ngọc,Nữ,20,Trung cấp,57,53,55,4,1,14,0.73,1,0
+152,Lê Quang Huy,Nam,23,Trung cấp,82,79,81,1,0,9,0.91,0,0
+104,Đỗ Minh Tuấn,Nam,21,Trung cấp,82,79,81,1,0,7,0.9,0,0
+100,Nguyễn Hoàng Long,Nam,23,Trung cấp,78,72,70,2,1,12,0.8,1,0
+117,Nguyễn Thị Kim Liên,Nữ,21,Trung cấp,58,54,56,4,1,15,0.73,1,0
+88,Nguyễn Minh Thư,Nữ,19,Sơ cấp,70,65,67,2,0,8,0.83,1,0
+75,Phan Tấn Đạt,Nam,23,Trung cấp,63,59,61,3,1,12,0.78,1,0
+122,Đỗ Văn Khải,Nam,24,Trung cấp,64,60,62,3,1,12,0.78,1,0
+200,Hoàng Quang Huy,Nam,25,Nâng cao,94,91,93,0,0,3,0.99,0,0
+21,Nguyễn Minh Khang,Nam,20,Cơ bản,63,58,56,4,1,13,0.77,1,0
+189,Trần Thị Ngọc Lan,Nữ,19,Sơ cấp,47,43,42,5,1,19,0.65,2,1
+72,Lê Bích Phượng,Nữ,20,Trung cấp,61,57,59,3,1,13,0.76,1,0
+107,Trần Bảo Ngọc,Nữ,21,Trung cấp,63,58,60,3,1,13,0.78,1,0
+15,Hoàng Gia Bảo,Nam,26,Trung cấp,62,57,58,3,1,14,0.75,1,0
+93,Trần Quốc Việt,Nam,23,Trung cấp,62,58,60,3,1,13,0.77,1,0
+180,Đỗ Văn Khánh,Nam,24,Nâng cao,93,90,92,0,0,3,0.99,0,0
+103,Phạm Thị Thúy,Nữ,22,Trung cấp,60,57,59,3,1,14,0.75,1,0

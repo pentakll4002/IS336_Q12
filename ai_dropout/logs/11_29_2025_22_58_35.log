@@ -1,0 +1,39 @@
+[ 2025-11-29 22:58:36,065 ] 15 root - INFO - Starting training pipeline
+[ 2025-11-29 22:58:36,065 ] 21 root - INFO - Starting data ingestion
+[ 2025-11-29 22:58:36,065 ] 26 root - INFO - Enter the data ingestion method or component
+[ 2025-11-29 22:58:36,065 ] 30 root - INFO - Read the datasets as dataframe
+[ 2025-11-29 22:58:36,065 ] 34 root - INFO - Train test split initiated
+[ 2025-11-29 22:58:36,065 ] 41 root - INFO - Ingestion of the dataset is completed
+[ 2025-11-29 22:58:36,065 ] 24 root - INFO - Data ingestion completed
+[ 2025-11-29 22:58:36,065 ] 27 root - INFO - Starting data transformation
+[ 2025-11-29 22:58:36,065 ] 78 root - INFO - Starting data transformation process
+[ 2025-11-29 22:58:36,081 ] 84 root - INFO - Train data shape: (160, 14)
+[ 2025-11-29 22:58:36,081 ] 85 root - INFO - Test data shape: (40, 14)
+[ 2025-11-29 22:58:36,081 ] 27 root - INFO - Starting column dropping
+[ 2025-11-29 22:58:36,081 ] 32 root - INFO - Column dropping completed successfully
+[ 2025-11-29 22:58:36,081 ] 27 root - INFO - Starting column dropping
+[ 2025-11-29 22:58:36,081 ] 32 root - INFO - Column dropping completed successfully
+[ 2025-11-29 22:58:36,081 ] 50 root - INFO - Starting data transformer object creation
+[ 2025-11-29 22:58:36,081 ] 58 root - INFO - Categorical features: ['gender', 'course_level']
+[ 2025-11-29 22:58:36,081 ] 59 root - INFO - Numeric features: ['age', 'attendance_rate', 'homework_completion', 'test_score', 'sessions_missed_last_30_days', 'complaints_count', 'last_interaction_days_ago', 'tuition_paid_ratio', 'late_payment_count']
+[ 2025-11-29 22:58:36,081 ] 67 root - INFO - Data transformer object created successfully
+[ 2025-11-29 22:58:36,081 ] 108 root - INFO - Data transformation completed successfully
+[ 2025-11-29 22:58:36,081 ] 32 root - INFO - Data transformation completed
+[ 2025-11-29 22:58:36,081 ] 38 root - INFO - Starting model training with MLflow tracking
+[ 2025-11-29 22:58:36,081 ] 27 root - INFO - Using training and test DataFrames (matching test.ipynb format)
+[ 2025-11-29 22:58:36,081 ] 34 root - INFO - Training data shape: X_train=(160, 11), y_train=(160,)
+[ 2025-11-29 22:58:36,081 ] 35 root - INFO - Test data shape: X_test=(40, 11), y_test=(40,)
+[ 2025-11-29 22:58:36,743 ] 67 root - INFO - Starting GridSearchCV with MLflow tracking
+[ 2025-11-29 22:59:06,296 ] 85 root - INFO - Best parameters: {'clf__C': 1.0, 'clf__class_weight': 'balanced', 'clf__fit_intercept': True, 'clf__l1_ratio': 0.9, 'clf__max_iter': 500, 'clf__penalty': 'elasticnet', 'clf__solver': 'saga'}
+[ 2025-11-29 22:59:06,296 ] 86 root - INFO - Best CV AUC score: 0.9990
+[ 2025-11-29 22:59:11,079 ] 132 root - INFO - Train Accuracy: 0.9875
+[ 2025-11-29 22:59:11,079 ] 133 root - INFO - Test Accuracy: 1.0000
+[ 2025-11-29 22:59:11,079 ] 134 root - INFO - Test Precision: 1.0000
+[ 2025-11-29 22:59:11,079 ] 135 root - INFO - Test Recall: 1.0000
+[ 2025-11-29 22:59:11,079 ] 136 root - INFO - Test F1 Score: 1.0000
+[ 2025-11-29 22:59:11,079 ] 137 root - INFO - Test ROC AUC: 1.0000
+[ 2025-11-29 22:59:11,084 ] 143 root - INFO - Model training completed successfully
+[ 2025-11-29 22:59:11,084 ] 144 root - INFO - MLflow run ID: 218a30cbbf6a4cbcab7c2b1a81910537
+[ 2025-11-29 22:59:11,086 ] 41 root - INFO - Model training completed
+[ 2025-11-29 22:59:11,086 ] 43 root - INFO - Training pipeline completed successfully
+[ 2025-11-29 22:59:11,086 ] 44 root - INFO - Check MLflow UI to view tracked experiments: mlflow ui

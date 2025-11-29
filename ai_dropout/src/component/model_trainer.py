@@ -3,88 +3,147 @@ import sys
 
 from dataclasses import dataclass
 
-from catboost import CatBoostRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, confusion_matrix, classification_report
+import mlflow
+import mlflow.sklearn
+import joblib
 
 from ..exception import CustomException
 from ..logger import logging
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join("artifacts", "model.pkl")
+    trained_model_file_path = os.path.join("ai_dropout/artifacts", "model.pkl")
 
 class ModelTrainer:
     def __init__(self):
         self.model_trainer_config = ModelTrainerConfig()
 
-    def initiate_model_trainer(self, train_array, test_array):
+    def initiate_model_trainer(self, X_train_df, y_train_series, X_test_df, y_test_series, preprocessor):
         try:
-            logging.info("Split training and test input data")
-            X_train, y_train, X_test, y_test = (
-                train_array[:, :-1],
-                train_array[:, -1],
-                test_array[:, :-1],
-                test_array[:, -1]
-            )
+            logging.info("Using training and test DataFrames (matching test.ipynb format)")
+            # Use DataFrames directly (matching test.ipynb)
+            X_train = X_train_df
+            y_train = y_train_series
+            X_test = X_test_df
+            y_test = y_test_series
             
             logging.info(f"Training data shape: X_train={X_train.shape}, y_train={y_train.shape}")
             logging.info(f"Test data shape: X_test={X_test.shape}, y_test={y_test.shape}")
             
-            # Define models to train
-            models = {
-                'LinearRegression': LinearRegression(),
-                'RandomForest': RandomForestRegressor(n_estimators=100, random_state=42),
-                'CatBoost': CatBoostRegressor(verbose=False, random_seed=42)
-            }
+            # Create model pipeline with preprocessor (matching test.ipynb format)
+            model = Pipeline([
+                ("prep", preprocessor),
+                ("clf", LogisticRegression(max_iter=2000, solver="lbfgs", class_weight="balanced"))
+            ])
             
-            model_report = {}
+            # Define hyperparameter grid (matching test.ipynb)
+            lr_params = [
+                {
+                    "clf__solver": ["liblinear"],
+                    "clf__penalty": ["l1", "l2"],
+                    "clf__C": [0.01, 0.1, 1.0, 10.0, 100.0],
+                    "clf__class_weight": [None, "balanced", {0:1,1:2}, {0:1,1:5}],
+                    "clf__fit_intercept": [True, False],
+                },
+                {
+                    "clf__solver": ["saga"],
+                    "clf__penalty": ["l1", "l2", "elasticnet"],
+                    "clf__l1_ratio": [0.1, 0.5, 0.9],
+                    "clf__C": [0.01, 0.1, 1.0, 10.0, 100.0],
+                    "clf__class_weight": [None, "balanced", {0:1,1:2}, {0:1,1:5}, {0:1,1:10}],
+                    "clf__fit_intercept": [True, False],
+                    "clf__max_iter": [100, 200, 500],
+                }
+            ]
             
-            for model_name, model in models.items():
-                logging.info(f"Training {model_name}")
+            # Start MLflow run
+            mlflow.set_experiment("student_dropout_prediction")
+            
+            with mlflow.start_run():
+                logging.info("Starting GridSearchCV with MLflow tracking")
                 
-                # Train the model
-                model.fit(X_train, y_train)
+                grid = GridSearchCV(
+                    estimator=model,
+                    param_grid=lr_params,
+                    scoring="roc_auc",
+                    cv=5,
+                    n_jobs=-1,
+                    verbose=2
+                )
+                
+                grid.fit(X_train, y_train)
+                
+                # Get best model
+                best_model = grid.best_estimator_
+                best_params = grid.best_params_
+                best_score = grid.best_score_
+                
+                logging.info(f"Best parameters: {best_params}")
+                logging.info(f"Best CV AUC score: {best_score:.4f}")
                 
                 # Make predictions
-                y_train_pred = model.predict(X_train)
-                y_test_pred = model.predict(X_test)
+                y_train_pred = best_model.predict(X_train)
+                y_test_pred = best_model.predict(X_test)
+                y_test_pred_proba = best_model.predict_proba(X_test)[:, 1]
                 
-                # Calculate R2 scores
-                train_model_score = r2_score(y_train, y_train_pred)
-                test_model_score = r2_score(y_test, y_test_pred)
+                # Calculate metrics
+                train_accuracy = accuracy_score(y_train, y_train_pred)
+                test_accuracy = accuracy_score(y_test, y_test_pred)
+                test_precision = precision_score(y_test, y_test_pred, average='weighted')
+                test_recall = recall_score(y_test, y_test_pred, average='weighted')
+                test_f1 = f1_score(y_test, y_test_pred, average='weighted')
+                test_roc_auc = roc_auc_score(y_test, y_test_pred_proba)
                 
-                # Calculate additional metrics
-                train_mse = mean_squared_error(y_train, y_train_pred)
-                test_mse = mean_squared_error(y_test, y_test_pred)
-                train_mae = mean_absolute_error(y_train, y_train_pred)
-                test_mae = mean_absolute_error(y_test, y_test_pred)
+                # Log hyperparameters to MLflow
+                for param, value in best_params.items():
+                    mlflow.log_param(param, value)
                 
-                model_report[model_name] = test_model_score
+                # Log metrics to MLflow
+                mlflow.log_metric("best_cv_auc", best_score)
+                mlflow.log_metric("train_accuracy", train_accuracy)
+                mlflow.log_metric("test_accuracy", test_accuracy)
+                mlflow.log_metric("test_precision", test_precision)
+                mlflow.log_metric("test_recall", test_recall)
+                mlflow.log_metric("test_f1_score", test_f1)
+                mlflow.log_metric("test_roc_auc", test_roc_auc)
                 
-                logging.info(f"{model_name} - Train R2 Score: {train_model_score:.4f}")
-                logging.info(f"{model_name} - Test R2 Score: {test_model_score:.4f}")
-                logging.info(f"{model_name} - Train MSE: {train_mse:.4f}")
-                logging.info(f"{model_name} - Test MSE: {test_mse:.4f}")
-                logging.info(f"{model_name} - Train MAE: {train_mae:.4f}")
-                logging.info(f"{model_name} - Test MAE: {test_mae:.4f}")
-            
-            # Find the best model
-            best_model_name = max(model_report, key=model_report.get)
-            best_model_score = model_report[best_model_name]
-            best_model = models[best_model_name]
-            
-            logging.info(f"Best model: {best_model_name} with R2 score: {best_model_score:.4f}")
-            
-            # Save the best model
-            import joblib
-            os.makedirs(os.path.dirname(self.model_trainer_config.trained_model_file_path), exist_ok=True)
-            joblib.dump(best_model, self.model_trainer_config.trained_model_file_path)
-            
-            logging.info("Model training completed successfully")
-            
-            return best_model_score
+                # Log confusion matrix
+                cm = confusion_matrix(y_test, y_test_pred)
+                mlflow.log_metric("tn", int(cm[0][0]))
+                mlflow.log_metric("fp", int(cm[0][1]))
+                mlflow.log_metric("fn", int(cm[1][0]))
+                mlflow.log_metric("tp", int(cm[1][1]))
+                
+                # Log model
+                mlflow.sklearn.log_model(best_model, "model")
+                
+                # Log classification report as artifact
+                report = classification_report(y_test, y_test_pred, output_dict=True)
+                import json
+                with open("classification_report.json", "w") as f:
+                    json.dump(report, f, indent=4)
+                mlflow.log_artifact("classification_report.json")
+                os.remove("classification_report.json")
+                
+                logging.info(f"Train Accuracy: {train_accuracy:.4f}")
+                logging.info(f"Test Accuracy: {test_accuracy:.4f}")
+                logging.info(f"Test Precision: {test_precision:.4f}")
+                logging.info(f"Test Recall: {test_recall:.4f}")
+                logging.info(f"Test F1 Score: {test_f1:.4f}")
+                logging.info(f"Test ROC AUC: {test_roc_auc:.4f}")
+                
+                # Save the best model (complete pipeline)
+                os.makedirs(os.path.dirname(self.model_trainer_config.trained_model_file_path), exist_ok=True)
+                joblib.dump(best_model, self.model_trainer_config.trained_model_file_path)
+                
+                logging.info("Model training completed successfully")
+                logging.info(f"MLflow run ID: {mlflow.active_run().info.run_id}")
+                
+                return test_roc_auc
 
         except Exception as e:
             raise CustomException(e, sys)

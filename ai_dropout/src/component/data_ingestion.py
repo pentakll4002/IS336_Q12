@@ -10,9 +10,9 @@ from dataclasses import dataclass
 
 @dataclass
 class DataIngestionConfig:
-    train_data_path: str = os.path.join('artifacts', 'train.csv')
-    test_data_path: str = os.path.join('artifacts', 'test.csv')
-    raw_data_path: str = os.path.join('artifacts', 'data.csv')
+    train_data_path: str = os.path.join('ai_dropout/artifacts', 'train.csv')
+    test_data_path: str = os.path.join('ai_dropout/artifacts', 'test.csv')
+    raw_data_path: str = os.path.join('ai_dropout/artifacts', 'data.csv')
 
 class DataIngestion:
     """
@@ -26,7 +26,7 @@ class DataIngestion:
         logging.info("Enter the data ingestion method or component")
 
         try:
-            df = pd.read_csv("data/Fraudulent_E-Commerce_Transaction_Data_Combined.csv")
+            df = pd.read_csv("ai_dropout/data/student-dropout.csv")
             logging.info("Read the datasets as dataframe")
 
             os.makedirs(os.path.dirname(self.data_ingestion_config.train_data_path), exist_ok=True)
